@@ -1,5 +1,9 @@
 #include<iostream>
 using namespace std;
+bool check()
+{
+	//实际可以不写这个函数 只是代表满足的性质 例如大于或小于某个数 根据题设条件决定 
+}
 //二分模板1,适用于区间被划分成[l,mid]和[mid+1,r]的情况 
 int bsearch1(int l,int r)
 {
